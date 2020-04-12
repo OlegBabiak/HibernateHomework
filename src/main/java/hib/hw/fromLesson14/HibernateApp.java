@@ -24,16 +24,7 @@ public class HibernateApp {
         Item item04 = new Item(40);
 
         HashSet<Item> items = new HashSet<>(Arrays.asList(item01, item02, item03, item04));
-
-        HashSet<Cart> carts = new HashSet<>();
-
         Cart cart = new Cart(4, "cart", items);
-
-        carts.add(cart);
-        item01.setCarts(carts);
-        item02.setCarts(carts);
-        item03.setCarts(carts);
-        item04.setCarts(carts);
 
         session.persist(cart);
         transaction.commit();

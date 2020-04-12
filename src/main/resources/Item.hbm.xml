@@ -10,7 +10,7 @@
 
         <property name="total" column="total" type="int"/>
 
-        <set name="carts" table="cart_item_mapping" inverse="false" lazy="true" fetch="select" cascade="all">
+        <set name="carts" table="cart_item_mapping" inverse="true" lazy="true" fetch="select" cascade="all">
             <key>
                 <column name="item_id" not-null="true"></column>
             </key>
