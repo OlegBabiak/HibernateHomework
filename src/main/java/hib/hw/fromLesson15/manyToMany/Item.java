@@ -1,4 +1,4 @@
-package hib.hw.fromLesson14;
+package hib.hw.fromLesson15.manyToMany;
 
 import java.util.Set;
 

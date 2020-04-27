@@ -1,4 +1,4 @@
-package hib.hw.fromLesson14;
+package hib.hw.fromLesson15.manyToMany;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
